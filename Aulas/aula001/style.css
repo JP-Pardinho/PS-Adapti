@@ -1,0 +1,35 @@
+p {
+    color: red;
+}
+
+.caixa-de-bombom {
+    height: 400px;
+    background-color: aqua;
+}
+
+.bombom {
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+}
+
+#baton {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#serenata {
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+}
+
+#bombom-serenata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
