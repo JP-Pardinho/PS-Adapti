@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado livre</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header id="cabecalho">
@@ -20,11 +21,11 @@
     <main id="principal">
         <div class="topo">
             <h2>Palestrantes</h2>
-            <button>Adicionar</button>
+            <button onclick="adicionarCard()">Adicionar</button>
         </div>
 
         <div id="container">
-            <div class="card">
+            <div id="card-exemplo" class="card">
                 <img src="img/banbcario.jpg" alt="Bancario">
                 <div class="card-info">
                     <p><strong>Adriana Silva</strong></p>
@@ -34,4 +35,7 @@
         </div>
     </main>
 </body>
+
+<script src="script.js"></script>
+
 </html>
